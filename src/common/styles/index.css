@@ -1,0 +1,15 @@
+.title{
+  min-height: 50px;
+}
+.img{
+  max-height: 300px;
+}
+.active{
+  text-decoration: underline;
+}
+.align-text-start{
+  text-align: start;
+}
+.align-items-center{
+  align-items: center;
+}
