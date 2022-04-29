@@ -88,7 +88,7 @@ const CurrentCard = ({ film }: { film: IFilm | any }) => {
           {}
         </Card.Title>
       </div>
-      <Card.Body style={{ textAlign: 'start' }}>
+      <Card.Body className="align-text-start">
         <Card.Text>{plot}</Card.Text>
       </Card.Body>
     </div>

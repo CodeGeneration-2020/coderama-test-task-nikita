@@ -1,7 +1,5 @@
+import { IFilm } from '../../../types';
+
 export interface ICard {
-  Title: string;
-  Year: string;
-  imdbID: string;
-  Type: string;
-  Poster: string;
+  film: IFilm;
 }

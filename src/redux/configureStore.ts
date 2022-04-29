@@ -1,13 +1,13 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import {
   useSelector as rawUseSelector,
   TypedUseSelectorHook,
   useDispatch,
-} from "react-redux";
-import createSagaMiddleware from "redux-saga";
-import rootSaga from "./root-saga";
-import filmCurrent from "./slices/film-current";
-import filmSearch from "./slices/film-search";
+} from 'react-redux';
+import createSagaMiddleware from 'redux-saga';
+import rootSaga from './rootSaga';
+import filmCurrent from './slices/filmCurrent';
+import filmSearch from './slices/filmSearch';
 
 const sagaMiddleware = createSagaMiddleware();
 

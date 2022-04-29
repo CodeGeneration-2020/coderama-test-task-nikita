@@ -5,13 +5,13 @@ import {
   filmError,
   filmLoading,
   routineSearchFilm,
-} from './slices/film-current';
+} from './slices/filmCurrent';
 import {
   filmsData,
   filmsError,
   filmsLoading,
   routineSearch,
-} from './slices/film-search';
+} from './slices/filmSearch';
 
 function* workGetFilms(actions: any) {
   yield put(filmsLoading());

@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { useAppDispatch, useSelector } from '../../redux/configure-store';
+import { useAppDispatch, useSelector } from '../../redux/configureStore';
 import {
   filmSelector,
   routineSearchFilm,
-} from '../../redux/slices/film-current';
+} from '../../redux/slices/filmCurrent';
 import CommonHeader from '../../common/components/header';
-import { FilmCard } from './components/';
+import { FilmCard } from './components';
 import { QUERIES } from '../../common/constants';
 
 const MovieDetails = () => {

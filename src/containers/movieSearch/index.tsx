@@ -1,7 +1,7 @@
 import { SyntheticEvent, useState } from 'react';
 import { Button, Form, FormControl } from 'react-bootstrap';
-import { useAppDispatch, useSelector } from '../../redux/configure-store';
-import { filmsSelector, routineSearch } from '../../redux/slices/film-search';
+import { useAppDispatch, useSelector } from '../../redux/configureStore';
+import { filmsSelector, routineSearch } from '../../redux/slices/filmSearch';
 import CommonHeader from '../../common/components/header';
 import CommonCard from '../../common/components/card';
 import { QUERIES } from '../../common/constants';

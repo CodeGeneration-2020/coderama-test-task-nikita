@@ -1,7 +1,7 @@
 import { Route, Routes as MainRoutes } from 'react-router';
-import MovieDetails from './containers/movie-details';
-import MovieFavorites from './containers/movie-favorites';
-import MovieSearch from './containers/movie-search';
+import MovieDetails from './containers/movieDetails';
+import MovieFavorites from './containers/movieFavorites';
+import MovieSearch from './containers/movieSearch';
 
 const Routes = () => (
   <MainRoutes>

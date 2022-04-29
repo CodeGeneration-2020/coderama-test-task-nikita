@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { createRoutine } from 'redux-saga-routines';
 import { IFilm } from '../../common/types';
-import { RootState } from '../configure-store';
+import { RootState } from '../configureStore';
 
 export const routineSearchFilm = createRoutine('filmcurrent');
 

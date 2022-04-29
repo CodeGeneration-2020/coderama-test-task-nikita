@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ICard } from './types';
 import '../../styles/index.css';
 
-const CommonCard = ({ film }: { film: ICard }) => {
+const CommonCard = ({ film }: ICard) => {
   const navigate = useNavigate();
 
   const {
